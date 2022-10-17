@@ -1,5 +1,5 @@
-<h1 align="center">EstudosPython</h1>
+<h1 align="center">Estudos Python - Bootcamp DIO Ciência de Dados</h1>
 
-Aqui é onde eu guarda meus projetos de estudo da linguagem Python, espero que de alguma forma te ajude!!
+Este repositório é onde irei registrar minha evolução com a linguagem de programação Python, cada pasta criada será de acordo com meu andamento no bootcamp e as temáticas abordadas nos cursos, espero ajudar de alguma maneira e estou a disposição para ajudar quem quer que esteja vendo esse repositório!! Bons estudos e nos vemos do outro lado!!
 
 
