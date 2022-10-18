@@ -1,1 +1,51 @@
-Teste
+Operadores aritméticos:
+    Adição -> 1 + 1
+    Subtração -> 10 - 2
+    Multiplicação -> 4 * 3
+    Divisão -> 12 / 3 (Retorna um float)
+    Divisão Inteira -> 12 // 3 (Retorna um int)
+    Módulo -> 10 % 3 (Retorna o resto da Divisão)
+    Exponenciação -> 2 ** 3
+
+Precedência dos Operadores:
+    1º Parêntesis ()
+    2º Expoêntes
+    3º Multiplicações e Divisões (da esquerda para a direita)
+    4º Somas e Subtrações (da esquerda para a direita)
+
+Operadores de Comparação:   
+    Igualdade -> ==
+    Diferença -> !=
+    Maior ou igual -> >=
+    Maior -> >
+    Menor ou igual -> <=
+    Menor -> <
+
+Operadores de Atribuições:
+    =
+    +=
+    -+
+    /=
+    //=
+    *=
+    **=
+    %=
+
+Operadores Lógicos:
+    and
+    or 
+    not
+
+Operadores de Identidade:
+    is (Serve para ver se uma variavel ocupa a mesma região de memória da outra)
+    EX: curso = 1
+        numero = curso
+
+        curso is numero 
+        TRUE
+
+Operadores de Associação:
+    in (Serve para saber se um elemento esta dentro de uma variável)
+    EX: curso = "Python"
+        "Python" in curso
+        TRUE    
