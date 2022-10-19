@@ -59,4 +59,29 @@ Métodos:
             print(f"Valor de PI: {PI:.2f}")
             >>>"Valor de PI: 3.14"
 
+    Fatiamento de string:
+        É uma técnica utilizada para retornar substrings (partes menores de uma string original).
 
+        EX: nome = "Vinicius Soares Jovito"
+            nome[0]
+            >>>"V"
+
+            nome[:9]
+            >>>"Vinicius"
+
+            nome[10:]
+            >>>"Soares Jovito"
+
+            nome[10:16:2]
+            >>>"Saes"
+
+            Os paramêtros dentro dos colchetes significa [inicio:fim:step]
+
+    String Múltiplas:
+        São definidas informando 3 aspas simples ou duplas durante a atribuição. Podem ocupar várias linhas do código.
+
+        EX: nome = "Vinicius"
+            mensagem = f"""
+            Olá meu nome é {nome},
+            Eu estou aprendendo Python
+            """
