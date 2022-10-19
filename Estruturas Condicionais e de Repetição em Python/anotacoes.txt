@@ -28,4 +28,16 @@ If ternário:
     Permite escrever uma condição em uma única linha. É composto por três partes, a primeira parte é o retorno caso a expressão retorne verdadeiro, a segunda parte é a expressão
 lógica e a terceira parte é o retorno caso a expressão não seja atendida.
 
+Estruturas de repetição:
+    São utilizadas para repetir um trecho de código N vezes. Esse N pode ser declarado ou determinado através de uma expressão lógica.
+
+For:    
+    É usado para percorrer um objeto iterável. Utiliza-se quando se sabe o número exato de vezes que um bloco de código deve ser executado, 
+ou quando se tem como objetivo percorrer um objeto.
+
+Função Range:
+    É uma função built-in do Python, é usada para produzir uma sequência de números inteiros a partir de uma ínicio (inclusivo) para um fim (exclusivo).
+
+While:
+    É utilizado para repetir um bloco de código várias vezes. 
                  
