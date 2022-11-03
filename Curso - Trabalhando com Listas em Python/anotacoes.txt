@@ -1,0 +1,42 @@
+Estrutura de dados:
+
+    Listas:
+    
+    Listas em Python podem armazenar de maneira sequencial qualquer tipo de objeto. Podemos criar listas utilizando o construtor list, a função range ou colocando valores
+    separados por vírgula dentro de colchetes. Listas são objetos mutáveis, portanto podemos alterar seus valores após a criação.
+
+    EX = nomes = ["Vinícius","Soares","Jovito"]
+         nomes = list("Vinícius","Soares","Jovito")
+         numeros = list(range(10))
+
+    A lista é uma sequência, portanto podemos acessar os dados utilizando índices. Contamos o índice a partir do zero.
+
+    EX = nomes = ["Vinícius","Soares","Jovito"]
+         nomes[0] #Vinicius
+
+    Listas podem armazenar todos os tipos de objetos Python, portanto podemos ter listas que armazenam outras listas. om isso podemos criar estruturas bidimensionais 
+    (Tabelas), e acessar informando os índices de linha e coluna.
+
+    Além de acessar elementos diretamente, podemos extrair um conjunto de valores de um sequência. Para isso basta passar o índice inicial e/ou final para acessar o conjunto. 
+    Podemos ainda informar quantas posições o cursor deve "Pular" no acesso.
+
+    EX = lista = ["p","y","t","h","o","n"]
+         lista[2:] #["t","h","o","n"]
+         lista[:2] #["p","y"]
+         lista[1:3] #["y","t"]
+         lista[0:3:2] #["p","t"]
+         lista[::-1] #["n","o","h","t","y","p"]
+
+    A forma mais comum para percorrer uma lista de dados é utilizando o comando for.
+
+    EX = carros = ["celta","palio","gol"]
+         for carro in carros:
+            print(carro)
+    
+    Função enumerate é usada para saber o índice de determinado valor da lista dentro de uma estrutura de repetição For.
+
+    EX = carros = ["gol","celta","palio"]
+         for indice, carro in enumerate(carros):
+            print(f"{indice}: {carro}")
+
+    
